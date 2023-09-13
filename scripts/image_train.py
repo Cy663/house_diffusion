@@ -65,6 +65,7 @@ def main():
 
 
 def create_argparser():
+    # for NN
     defaults = dict(
         dataset = '',
         schedule_sampler= "uniform", #"loss-second-moment", "uniform",
